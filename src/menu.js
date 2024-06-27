@@ -1,8 +1,9 @@
 
 function createMenu(){
+
     const div = document.querySelector("#content");
     const h1 = document.createElement("h1");
-    h1.textContent="menu";
+    h1.textContent="Menu";
 
     const item1 = document.createElement("div");
     const item1Header = document.createElement("h2");

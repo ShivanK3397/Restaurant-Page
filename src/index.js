@@ -14,5 +14,19 @@ menu.addEventListener("click",()=>{
     deleteContent();
     createMenu();
     menuSelected=true;
+    homeSelected=false;
+    }
+})
+
+const home = document.querySelector("#home");
+let homeSelected = true;
+home.addEventListener("click",()=>{
+    if(homeSelected){
+
+    }
+    else{
+        deleteContent();
+        createHomepage();
+        homeSelected=true;
     }
 })
