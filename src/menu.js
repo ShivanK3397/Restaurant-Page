@@ -16,9 +16,9 @@ function createMenu(){
     const item2Header = document.createElement("h2");
     item2Header.textContent="Toast and Jam";
     const item2text = document.createElement("p");
-    item2Text.textContent="A slice of toast, your choice of bread, and our homemade blackberry or raspberry jam.";
+    item2text.textContent="A slice of toast, your choice of bread, and our homemade blackberry or raspberry jam.";
     item2.appendChild(item2Header);
-    item2.appendChild(item2Text);
+    item2.appendChild(item2text);
 
     const item3 = document.createElement("div");
     const item3Header = document.createElement("h2");
