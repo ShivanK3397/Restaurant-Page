@@ -1,2 +1,2 @@
-#Resturant Page 
-Part of Odin Project
+Resturant Page 
+
