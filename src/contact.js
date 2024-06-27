@@ -26,7 +26,7 @@ function createContact(){
     contact1Name.textContent="Papa Bear";
 
     const contact2Info = document.createElement("div");
-    const contact2Role = document.createElement("p");
+    const contact2Role = document.createElement("h3");
     contact2Role.textContent="Manager"
     const contact2Number = document.createElement("p");
     contact2Number.textContent="555-555-5554";

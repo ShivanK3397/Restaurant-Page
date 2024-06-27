@@ -1,3 +1,8 @@
+@font-face{
+    font-family: "ChunkFive Regular";
+    src: url(fonts/chunkfive-regular-webfont.woff2) format(woff2),
+    url(fonts/chunkfive-regular-webfont.woff) format(woff);
+}
 *, *::before, *::after {
     box-sizing: border-box;
   }
@@ -13,9 +18,15 @@
     4. Improve text rendering
   */
   body {
+    font-family: "ChunkFive Regular";
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
-  }
+    background-size:100% 100% ;
+    background-image:url(images/gradient-hexagonal-background_23-2148946475.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
   /*
     5. Improve media defaults
   */
@@ -41,5 +52,44 @@
   #root, #__next {
     isolation: isolate;
   }
+
+  nav,#content{
+    background-color: #fcd34d;
+  }
+
+  nav{
+    display: flex;
+    justify-content: center;
+    margin: 8px 0 32px 0;
+    padding: 16px 32px;
+    height: 100%;
+    gap: 16px;
+    align-items: end;
+  }
+
+  button{
+    background-color: #fcd34d;
+    border-radius: 8px;
+    padding: 8px 16px;
+    
+  }
+
+
+
+  #content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 32px;
+    width: fit-content;
+    min-width: 60%;
+    border-radius: 16px;
+    padding: 32px;
+
+  }
+
+
+  
+
 
   
